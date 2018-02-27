@@ -1,0 +1,17 @@
+{
+    "type":"object",
+    "required":false,
+    "javaType":"com.lukaspradel.steamapi.data.json.isplayingsharedgame.IsPlayingSharedGame",
+    "properties":{
+        "response": {
+            "type":"object",
+            "required":false,
+            "properties":{
+                "lender_steamid": {
+                    "type":"string",
+                    "required":false
+                }
+            }
+        }
+    }
+}
